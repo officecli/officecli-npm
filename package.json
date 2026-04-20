@@ -1,6 +1,6 @@
 {
   "name": "officecli",
-  "version": "0.2.9",
+  "version": "0.2.14",
   "description": "NPM wrapper that installs the OfficeCLI binary from GitHub Releases.",
   "license": "UNLICENSED",
   "private": false,
@@ -16,6 +16,7 @@
   "scripts": {
     "postinstall": "node ./scripts/postinstall.js",
     "smoke:version": "node ./bin/officecli.js --version",
+    "test": "node --test ./test/install.test.js",
     "pack:dry-run": "npm pack --dry-run",
     "check:release-version": "node ./scripts/check-release-version.js"
   },
