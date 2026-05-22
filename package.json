@@ -1,6 +1,6 @@
 {
   "name": "officecli",
-  "version": "0.2.74",
+  "version": "0.2.75",
   "description": "AI document generation CLI for PPTX, DOCX, XLSX, reports, and images.",
   "license": "UNLICENSED",
   "private": false,
@@ -36,10 +36,10 @@
   "homepage": "https://officecli.io/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/officecli/officecli-npm.git"
+    "url": "git+https://github.com/officecli/officecli.git"
   },
   "bugs": {
-    "url": "https://github.com/officecli/officecli-npm/issues"
+    "url": "https://github.com/officecli/officecli/issues"
   },
   "publishConfig": {
     "access": "public"
