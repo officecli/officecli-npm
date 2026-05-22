@@ -1,6 +1,6 @@
 {
   "name": "officecli",
-  "version": "0.2.70",
+  "version": "0.2.74",
   "description": "AI document generation CLI for PPTX, DOCX, XLSX, reports, and images.",
   "license": "UNLICENSED",
   "private": false,
@@ -26,13 +26,21 @@
   },
   "os": [
     "darwin",
-    "linux"
+    "linux",
+    "win32"
   ],
   "cpu": [
     "x64",
     "arm64"
   ],
   "homepage": "https://officecli.io/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/officecli/officecli-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/officecli/officecli-npm/issues"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -50,12 +58,5 @@
     "image-generation",
     "office-documents",
     "ai-agents"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/officecli/officecli-npm.git"
-  },
-  "bugs": {
-    "url": "https://github.com/officecli/officecli-npm/issues"
-  }
+  ]
 }

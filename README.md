@@ -1,6 +1,6 @@
 # officecli
 
-[Official website: https://officecli.io/](https://officecli.io/)
+[Website](https://officecli.io/) · [Discord](https://discord.gg/ezAHMkdG) · [X](https://x.com/officecli) · [GitHub](https://github.com/officecli/officecli)
 
 `officecli` is an npm wrapper package for the OfficeCLI binary.
 
@@ -63,8 +63,8 @@ officecli config set-generation
 - macOS `arm64`
 - Linux `x64`
 - Linux `arm64`
-
-Windows is not supported yet because the current public binary release flow only publishes `darwin` and `linux` archives.
+- Windows `x64`
+- Windows `arm64`
 
 ## Environment Overrides
 
